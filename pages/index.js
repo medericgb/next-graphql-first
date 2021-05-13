@@ -4,6 +4,7 @@ import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 
 export default function Home({ launches }) {
   // console.log("Launches", launches);
+
   return (
     <div className={styles.container}>
       <Head>
